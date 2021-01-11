@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="script.js" type="text/javascript"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+          <div class="circlebox">
+            <div class="box1">
+          <div id="circle1"></div>
+          <div id="circle2"></div></div>
+          <div id="circle3"></div>
+          <div class="box2">
+          <div id="circle4"></div>
+          <div id="circle5"></div>
+        </div>
+        </div>
+        <button id="btn1">click here</button>
+
+          <script>
+            function circle1 (){
+              document.getElementById("circle1").style. top= "-92px";
+              document.getElementById("circle1").style. left= "-143px";
+              // document.getElementById("circle1").innerHTML="";
+            }
+
+            function circle2 (){
+              document.getElementById("circle2").style. top= "132px";
+              document.getElementById("circle2").style. left= "-143px";
+              // document.getElementById("circle1").innerHTML="";
+            }
+
+            function circle4 (){
+              document.getElementById("circle4").style. top= "-92px";
+              document.getElementById("circle4").style. left= "132px";
+              // document.getElementById("circle1").innerHTML="";
+            }
+
+            function circle5 (){
+              document.getElementById("circle5").style. top= "81px";
+              document.getElementById("circle5").style. left= "137px";
+              // document.getElementById("circle1").innerHTML="";
+            }
+          
+            var btn = document.getElementById("btn1");
+            btn.addEventListener("click", circle1);
+            btn.addEventListener("click", circle2);
+
+            btn.addEventListener("click", circle4);
+
+            btn.addEventListener("click", circle5);
+
+        
+            
+          </script>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

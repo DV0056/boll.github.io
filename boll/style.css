@@ -1,0 +1,68 @@
+
+.container {
+    width: 32%;
+    border: 1px solid #000;
+    position: relative;
+    height: 275px;
+    margin: 0 auto;
+    border-radius: 28px;
+}
+#btn1, #btn2 {
+    background-color: greenyellow;
+    color: #000;
+    padding: 9px;
+    margin-bottom: 4px;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 20%;
+    position: absolute;
+    left: 42%;
+    top: 283px;
+}
+#circle1,#circle2,#circle3,#circle4,#circle5{
+    background-color: violet;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    /* display:none; */
+}
+
+#circle1 {
+    position: absolute;
+    top: -17px;
+    left: 21px;
+}
+#circle2 {
+    background-color: rgb(255, 0, 0);
+    top: 67px;
+    position: relative;
+    left: 21px;
+}
+
+#circle3{
+    background-color: rgb(0, 128, 128);
+    margin-top: 25px;}
+
+    #circle4 {
+        background-color: rgb(154, 205, 50);
+        position: relative;
+        top: -18px;
+        left: -16px;
+    }
+#circle5{
+    background-color:rgb(19, 21, 187) ;
+    position: relative;
+    top: 16px;
+    left: -18px;
+}
+.circlebox {
+    width: 38%;
+    display: flex;
+    position: absolute;
+    top: 93px;
+    left: 144px;
+}
+.main {
+    width: 100%;
+}
